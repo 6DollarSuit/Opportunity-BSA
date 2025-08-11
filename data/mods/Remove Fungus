@@ -1,0 +1,12 @@
+[
+  {
+    "type": "MOD_INFO",
+    "id": "NO_FUNGUS",
+    "name": "Remove Fungus"
+    }
+    {
+    "type": "MONSTER_BLACKLIST",
+    "categories": [ "FUNGUS" ]
+    }
+  
+]
