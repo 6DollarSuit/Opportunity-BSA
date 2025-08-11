@@ -1,0 +1,14 @@
+[
+  {
+    "type": "MOD_INFO",
+    "id": "NO_FUNGUS",
+    "name": "No Fungus",
+    "description": "Removes all fungus.",
+    "category": "monster_exclude",
+    "dependencies": [ "dda" ]
+  },
+  {
+    "type": "MONSTER_BLACKLIST",
+    "categories": [ "FUNGUS" ]
+  }
+]
