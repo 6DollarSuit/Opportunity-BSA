@@ -137,7 +137,7 @@
     "name": "SPAWN_CITY_HORDE_THRESHOLD",
     "//": "Minimum city size to guarantee extra zombies are spawned in cities.  0 means all cities spawn extra zombies.  Negative values disable extra city zombies.",
     "stype": "int",
-    "value": 4
+    "value": -4
   },
   {
     "type": "EXTERNAL_OPTION",
@@ -158,7 +158,7 @@
     "name": "SPAWN_CITY_HORDE_SCALAR",
     "//": "A scaling factor that determines how many zombies are spawned in cites, multiplied by city size, when city hordes are indicated.",
     "stype": "float",
-    "value": 80.0
+    "value": 10.0
   },
   {
     "type": "EXTERNAL_OPTION",
@@ -319,7 +319,7 @@
     "name": "OVERMAP_FOREST_INCREASE_NORTH",
     "//": "Rate at which forest coverage of the map increases to the North, based on regional map settings thresholds.  0=no increase.",
     "stype": "float",
-    "value": 0.04
+    "value": 0
   },
   {
     "type": "EXTERNAL_OPTION",
@@ -333,7 +333,7 @@
     "name": "OVERMAP_FOREST_INCREASE_WEST",
     "//": "Rate at which forest coverage of the map increases to the West.  0=no increase.",
     "stype": "float",
-    "value": 0.02
+    "value": 0
   },
   {
     "type": "EXTERNAL_OPTION",
@@ -431,7 +431,7 @@
     "name": "OVERMAP_URBAN_INCREASE_EAST",
     "//": "Rate at which urbanity of the map increases to the East.  0=no increase.",
     "stype": "int",
-    "value": 10
+    "value": 0
   },
   {
     "type": "EXTERNAL_OPTION",
@@ -445,7 +445,7 @@
     "name": "OVERMAP_URBAN_INCREASE_SOUTH",
     "//": "Rate at which urbanity of the map increases to the West.  0=no increase.",
     "stype": "int",
-    "value": 5
+    "value": 0
   },
   {
     "type": "EXTERNAL_OPTION",
@@ -494,7 +494,7 @@
     "name": "CAPITALISM",
     "//": "NPCs will accept your bank balance as payment in trades.",
     "stype": "bool",
-    "value": false
+    "value": true
   },
   {
     "type": "EXTERNAL_OPTION",
